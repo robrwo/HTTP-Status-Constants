@@ -32,6 +32,7 @@ requires(
 );
 
 test_requires(
+    'Test::More' => 0,    #
 );
 
 install_as_cpan;
