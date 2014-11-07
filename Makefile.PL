@@ -31,11 +31,6 @@ requires(
     'version'         => 0.77,
 );
 
-recommends(
-    'Package::Stash::XS' => 0,
-    'Storable'           => 0,
-);
-
 test_requires(
 );
 
