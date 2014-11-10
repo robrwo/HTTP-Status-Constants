@@ -8,8 +8,10 @@
 ^blib/
 ^pm_to_blib$
 
-HTTP-Status-Const*-.*/
-HTTP-Status-Const*-.*\.tar\.gz
+HTTP-Status-Constants.*/
+HTTP-Status-Constants-.*\.tar\.gz
+HTTP-Status-Const.*/
+HTTP-Status-Const-.*\.tar\.gz
 
 ^MYMETA\.*
 

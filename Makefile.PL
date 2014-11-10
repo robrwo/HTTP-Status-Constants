@@ -11,8 +11,6 @@ perl_version 5.010;
 
 tests_recursive('t');
 
-# tests_recursive('xt');
-
 resources(
     homepage   => 'http://rrwo.tumblr.com',
     license    => 'http://www.perlfoundation.org/artistic_license_2_0',
@@ -26,6 +24,7 @@ build_requires();
 
 requires(
     'Const::Exporter' => 0,
+    'Exporter'        => 0,
     'HTTP::Status'    => 0,
     'Package::Stash'  => 0,
     'version'         => 0.77,
