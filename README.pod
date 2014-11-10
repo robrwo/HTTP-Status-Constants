@@ -59,13 +59,15 @@ This distribution requires the following modules:
 
 =head1 RECENT CHANGES
 
-=head2 Incompatabilities
-
 =over 4
 
 =item * 
 
 Renamed to HTTP::Status::Const.
+
+=item * 
+
+HTTP::Status::Constants is a deprecated module that uses HTTP::Status::Const. Eventually it will issue warnings, and then be removed.
 
 =back
 
