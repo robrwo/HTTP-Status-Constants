@@ -1,11 +1,11 @@
-package HTTP::Status::Constants;
+package HTTP::Status::Const;
 
 use v5.10.0;
 
 use strict;
 use warnings;
 
-use version 0.77; our $VERSION = version->declare('v0.1.0');
+use version 0.77; our $VERSION = version->declare('v0.2.0');
 
 use Const::Exporter;
 use HTTP::Status ();
@@ -13,13 +13,13 @@ use Package::Stash;
 
 =head1 NAME
 
-HTTP::Status::Constants - interpolable HTTP status constants
+HTTP::Status::Const - interpolable HTTP status constants
 
 =for readme plugin version
 
 =head1 SYNOPSIS
 
-  use HTTP::Status::Constants;
+  use HTTP::Status::Const;
 
   ...
 

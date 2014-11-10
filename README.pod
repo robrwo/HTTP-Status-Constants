@@ -1,14 +1,14 @@
 =head1 NAME
 
-HTTP::Status::Constants - interpolable HTTP status constants
+HTTP::Status::Const - interpolable HTTP status constants
 
 =head1 VERSION
 
-v0.1.0
+v0.2.0
 
 =head1 SYNOPSIS
 
-  use HTTP::Status::Constants;
+  use HTTP::Status::Const;
 
   ...
 
@@ -59,11 +59,13 @@ This distribution requires the following modules:
 
 =head1 RECENT CHANGES
 
+=head2 Incompatabilities
+
 =over 4
 
 =item * 
 
-Initial version.
+Renamed to HTTP::Status::Const.
 
 =back
 

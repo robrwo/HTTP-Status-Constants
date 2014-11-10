@@ -1,4 +1,8 @@
-Revision history for HTTP::Status::Constants;
+Revision history for HTTP::Status::Const;
+
+v0.2.0
+  [Incompatabilities]
+   - Renamed to HTTP::Status::Const.
 
 v0.1.0  2014-11-07
         - Initial version.

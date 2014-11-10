@@ -4,7 +4,7 @@ use warnings FATAL => 'all';
 use inc::Module::Install;
 
 name 'HTTP-Status-Constants';
-all_from 'lib/HTTP/Status/Constants.pm';
+all_from 'lib/HTTP/Status/Const.pm';
 license 'artistic_2';
 
 perl_version 5.010;
