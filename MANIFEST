@@ -10,7 +10,7 @@ inc/Module/Install/Makefile.pm
 inc/Module/Install/Metadata.pm
 inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
-lib/HTTP/Status/Constants.pm
+lib/HTTP/Status/Const.pm
 Makefile.PL
 MANIFEST			This list of files
 MANIFEST.SKIP
