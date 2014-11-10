@@ -3,7 +3,7 @@ use strict;
 use warnings FATAL => 'all';
 use inc::Module::Install;
 
-name 'HTTP-Status-Constants';
+name 'HTTP-Status-Const';
 all_from 'lib/HTTP/Status/Const.pm';
 license 'artistic_2';
 

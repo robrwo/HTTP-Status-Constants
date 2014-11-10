@@ -4,7 +4,7 @@ HTTP::Status::Const - interpolable HTTP status constants
 
 =head1 VERSION
 
-v0.2.0
+v0.2.1
 
 =head1 SYNOPSIS
 
@@ -63,11 +63,7 @@ This distribution requires the following modules:
 
 =item * 
 
-Renamed to HTTP::Status::Const.
-
-=item * 
-
-HTTP::Status::Constants is a deprecated module that uses HTTP::Status::Const. Eventually it will issue warnings, and then be removed.
+Removed HTTP::Status::Constants from distribution.  (This version just exports everything that HTTP::Status::Const does, so it should have no effect on existing users.)
 
 =back
 

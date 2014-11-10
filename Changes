@@ -1,11 +1,15 @@
 Revision history for HTTP::Status::Const
 
-v0.2.0
+v0.2.1  2014-11-10 23:16 GMT
+   - Removed HTTP::Status::Constants from distribution.  (This version
+     just exports everything that HTTP::Status::Const does, so it
+     should have no effect on existing users.)
+
+v0.2.0  2014-11-10 23:06 GMT
    - Renamed to HTTP::Status::Const.
 
    - HTTP::Status::Constants is a deprecated module that uses
-     HTTP::Status::Const. Eventually it will issue warnings, and then
-     be removed.
+     HTTP::Status::Const.
 
 v0.1.0  2014-11-07
    - Initial version.
