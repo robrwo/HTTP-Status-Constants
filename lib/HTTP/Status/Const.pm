@@ -11,6 +11,8 @@ use Const::Exporter;
 use HTTP::Status qw/ :is status_message /;
 use Package::Stash;
 
+# RECOMMEND PREREQ: Package::Stash::XS 0
+
 =head1 NAME
 
 HTTP::Status::Const - interpolable HTTP status constants
