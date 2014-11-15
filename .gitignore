@@ -12,3 +12,5 @@ MYMETA.*
 inc/*
 
 HTTP-Status-Const*-v*/*
+
+.build/

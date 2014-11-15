@@ -1,7 +1,10 @@
 Revision history for HTTP::Status::Const
 
-   - Added support for exporting HTTP::Status's utilit functions
-     [Fixes GitHub #1].
+{{$NEXT}}
+  - Added support for exporting HTTP::Status's utilit functions
+    [Fixes GitHub #1].
+
+  - Switched to use Dist::Zilla for managing the distribution.
 
 v0.2.1  2014-11-10 23:16 GMT
    - Removed HTTP::Status::Constants from distribution.  (This version
