@@ -1,5 +1,8 @@
 Revision history for HTTP::Status::Const
 
+   - Added support for exporting HTTP::Status's utilit functions
+     [Fixes GitHub #1].
+
 v0.2.1  2014-11-10 23:16 GMT
    - Removed HTTP::Status::Constants from distribution.  (This version
      just exports everything that HTTP::Status::Const does, so it
