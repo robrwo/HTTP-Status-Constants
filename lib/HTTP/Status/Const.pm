@@ -29,7 +29,7 @@ HTTP::Status::Const - interpolable HTTP status constants
 
   ...
 
-  my %handlers => (
+  my %handlers = (
     $HTTP_OK      => sub { ... },
     $HTTP_CREATED => sub { ... },
     ...
