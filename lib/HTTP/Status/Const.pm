@@ -44,6 +44,22 @@ function names.
 This means the constants can be used in contexts where you need
 interpolated variables, such as hash keys or in strings.
 
+=head2 Do I really need this?
+
+No. You can get interpolated constants already, with some ugly syntax:
+
+  my %handlers = (
+    HTTP_OK() => sub { ... },
+  );
+
+or
+
+  "Status code ${ \HTTP_OK }"
+
+So all this module gives you is some stylistic convenience, at the
+expense of additional dependencies (although ones that may be used
+by other modules).
+
 =begin :readme
 
 See the L<Pod::Readme> documentation for more details on the POD
