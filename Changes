@@ -1,5 +1,9 @@
 Revision history for HTTP::Status::Const
 
+{{$NEXT}}
+  [Documentation]
+  - Fixed typos in the README due to cut-and-paste.
+
 v0.2.2    2014-12-05 17:43:31+00:00 Europe/London
   - Added support for exporting HTTP::Status's utility functions
     [Fixes GitHub #1].

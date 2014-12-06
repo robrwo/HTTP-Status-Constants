@@ -5,7 +5,7 @@ use v5.10.0;
 use strict;
 use warnings;
 
-use version 0.77; our $VERSION = version->declare('v0.2.2');
+use version 0.77; our $VERSION = version->declare('v0.2.3');
 
 use Const::Exporter;
 use HTTP::Status qw/ :is status_message /;
@@ -61,11 +61,6 @@ expense of additional dependencies (although ones that may be used
 by other modules).
 
 =begin :readme
-
-See the L<Pod::Readme> documentation for more details on the POD
-syntax that this module recognizes.
-
-See L<pod2readme> for command-line usage.
 
 =head1 INSTALLATION
 

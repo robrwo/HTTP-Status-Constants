@@ -4,7 +4,7 @@ HTTP::Status::Const - interpolable HTTP status constants
 
 =head1 VERSION
 
-v0.2.2
+v0.2.3
 
 =head1 SYNOPSIS
 
@@ -47,11 +47,6 @@ So all this module gives you is some stylistic convenience, at the
 expense of additional dependencies (although ones that may be used
 by other modules).
 
-See the L<Pod::Readme> documentation for more details on the POD
-syntax that this module recognizes.
-
-See L<pod2readme> for command-line usage.
-
 =head1 INSTALLATION
 
 See
@@ -83,23 +78,13 @@ This distribution recommends the following modules:
 
 =head1 RECENT CHANGES
 
+=head2 Documentation
+
 =over 4
 
 =item * 
 
-Added support for exporting HTTP::Status's utility functions [Fixes GitHub #1].
-
-=item * 
-
-Switched to use Dist::Zilla for managing the distribution.
-
-=item * 
-
-Fixed typos in POD.
-
-=item * 
-
-Added note about why you don't need this module. Really, you don't need it.
+Fixed typos in the README due to cut-and-paste.
 
 =back
 
