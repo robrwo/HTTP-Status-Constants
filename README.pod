@@ -4,7 +4,7 @@ HTTP::Status::Const - interpolable HTTP status constants
 
 =head1 VERSION
 
-v0.2.3
+v0.3.0
 
 =head1 SYNOPSIS
 

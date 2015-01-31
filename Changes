@@ -6,6 +6,10 @@ Revision history for HTTP::Status::Const
   [Other Changes]
   - Updated copyright year.
 
+  - Use Perl::Critic tests are part of build process.
+
+  - Clean up prereqs in build.
+
 v0.2.3    2014-12-06 17:41:35+00:00 Europe/London
   [Documentation]
   - Fixed typos in the README due to cut-and-paste.
