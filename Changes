@@ -10,6 +10,8 @@ Revision history for HTTP::Status::Const
 
   - Clean up prereqs in build.
 
+  - Added author and release tests.
+
 v0.2.3    2014-12-06 17:41:35+00:00 Europe/London
   [Documentation]
   - Fixed typos in the README due to cut-and-paste.
