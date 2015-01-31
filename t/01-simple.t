@@ -2,6 +2,7 @@ use strict;
 use warnings;
 
 use Test::More;
+use if $ENV{RELEASE_TESTING}, 'Test::Warnings';
 
 use HTTP::Status::Const qw/ :all /;
 use HTTP::Status ':constants';
