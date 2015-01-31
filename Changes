@@ -1,5 +1,6 @@
 Revision history for HTTP::Status::Const
 
+{{$NEXT}}
   [Incompatabilities]
   - Increased minimum version to Perl v5.10.1.
 
