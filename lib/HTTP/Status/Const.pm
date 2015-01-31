@@ -1,6 +1,6 @@
 package HTTP::Status::Const;
 
-use v5.10.0;
+use v5.10.1;
 
 use strict;
 use warnings;

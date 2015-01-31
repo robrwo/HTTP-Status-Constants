@@ -1,5 +1,8 @@
 Revision history for HTTP::Status::Const
 
+  [Incompatabilities]
+  - Increased minimum version to Perl v5.10.1.
+
   [Other Changes]
   - Updated copyright year.
 

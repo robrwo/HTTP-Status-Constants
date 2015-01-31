@@ -54,7 +54,7 @@ L<How to install CPAN modules|http://www.cpan.org/modules/INSTALL.html>.
 
 =head2 Required Modules
 
-This distribution requires Perl v5.10.0.
+This distribution requires Perl v5.10.1.
 
 This distribution requires the following modules:
 
