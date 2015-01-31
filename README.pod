@@ -78,13 +78,35 @@ This distribution recommends the following modules:
 
 =head1 RECENT CHANGES
 
-=head2 Documentation
+=head2 Incompatabilities
 
 =over 4
 
 =item * 
 
-Fixed typos in the README due to cut-and-paste.
+Increased minimum version to Perl v5.10.1.
+
+=back
+
+=head2 Other Changes
+
+=over 4
+
+=item * 
+
+Updated copyright year.
+
+=item * 
+
+Use Perl::Critic tests are part of build process.
+
+=item * 
+
+Clean up prereqs in build.
+
+=item * 
+
+Added author and release tests.
 
 =back
 
