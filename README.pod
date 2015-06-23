@@ -108,6 +108,10 @@ Clean up prereqs in build.
 
 Added author and release tests.
 
+=item * 
+
+Use Dist::Zilla TravisYML plugin.
+
 =back
 
 See the F<Changes> file for a longer revision history.
