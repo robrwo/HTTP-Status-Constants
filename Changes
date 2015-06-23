@@ -13,6 +13,8 @@ Revision history for HTTP::Status::Const
 
   - Added author and release tests.
 
+  - Use Dist::Zilla TravisYML plugin.
+
 v0.2.3    2014-12-06 17:41:35+00:00 Europe/London
   [Documentation]
   - Fixed typos in the README due to cut-and-paste.
@@ -41,4 +43,3 @@ v0.2.0  2014-11-10 23:06 GMT
 
 v0.1.0  2014-11-07
    - Initial version.
-
