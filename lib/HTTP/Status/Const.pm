@@ -11,6 +11,7 @@ use Const::Exporter;
 use HTTP::Status qw/ :is status_message /;
 use Package::Stash;
 
+# RECOMMEND PREREQ: HTTP::Status 6.16
 # RECOMMEND PREREQ: Package::Stash::XS 0
 
 =head1 NAME

@@ -1,5 +1,9 @@
 Revision history for HTTP::Status::Const
 
+{{$NEXT}}
+  [Other Changes]
+  - Added HTTP::Status 6.16 as a recommended prereq.
+
 v0.3.0    2015-06-23 18:30:56+01:00 Europe/London
   [Incompatabilities]
   - Increased minimum version to Perl v5.10.1.
