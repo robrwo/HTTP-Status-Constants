@@ -5,7 +5,7 @@ use v5.10.1;
 use strict;
 use warnings;
 
-use version; our $VERSION = version->declare('v0.3.0');
+use version; our $VERSION = version->declare('v0.3.1');
 
 use Const::Exporter;
 use HTTP::Status qw/ :is status_message /;
